@@ -1,0 +1,82 @@
+body {
+  font-family: Times New Roman,serif;
+  font-size: 14px;
+  color: rgb(52, 91, 103);
+  display: block;
+  margin: 8px;
+}
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  line-height: 5;
+}
+
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-style: italic;
+  color: rgb(84, 11, 14);
+}
+
+.list-inline > li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+.fab {
+  color: rgb(52, 78, 65);
+  text-decoration: none;
+}
+
+.card_white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+#profile_pic {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#button_pink {
+  font-family: 'Montserrat Alternates', sans-serif;  font-style: italic;
+  color: rgb(165, 56, 96)
+  background-color: #6B72E1;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
