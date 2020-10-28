@@ -53,13 +53,10 @@ p {
 
 #button_pink {
   font-family: 'Montserrat Alternates', sans-serif;  font-style: italic;
-  color: rgb(165, 56, 96)
   background-color: #6B72E1;
+  color: white;
   padding: 15px 20px;
   border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
 }
 
 @media (max-width: 960px) {
